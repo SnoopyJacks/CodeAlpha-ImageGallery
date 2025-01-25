@@ -16,14 +16,14 @@ card {
     transition: transform 03.s ease, box-shadow 0.3s ease;
 }
 
-card img {
+.card img {
     object-fit: cover;
     height: 250px;
     width: 100%;
     transition: transform 0.3s ease;
 }
 
-card:hover {
+.card:hover {
     transform scale(1.05);
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
